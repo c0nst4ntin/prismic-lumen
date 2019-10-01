@@ -1,21 +1,36 @@
-# Lumen PHP Framework
+<h2 align="center">prismic-lumen</h2>
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+<p align="center">
+  <a href="https://github.com/c0nst4ntin/prismic-lumen/blob/master/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/c0nst4ntin/prismic-lumen.svg?color=orange">
+  </a>
+  <a href="https://github.com/c0nst4ntin/prismic-lumen/">
+    <img src="https://img.shields.io/github/package-json/v/c0nst4ntin/prismic-lumen?color=success">
+  </a>
+  <a href="https://sass-lang.com">
+    <img src="https://img.shields.io/github/package-json/dependency-version/c0nst4ntin/prismic-lumen/dev/laravel-mix?color=ff69b4">
+  </a>
+</p>
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+<p align="center">
+  <em>
+  A simple boilerplate using @prismicio & @laravel's lumen
+  </em>
+</p>
 
-## Official Documentation
+This Lumen & Prismic.io boilerplate contains all the features and scripts you need to start developing websites using the Lumen PHP Framework and the Headless CMS Prismic.io.
 
+
+## Getting Started
+
+### Lumen: Official Documentation
 Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
 
-## Security Vulnerabilities
+### Prismic Config
+In the `.env` file you need to fill in your API Endpoint and your Access Token.
+If you don't have your repository set up to require an Access Token, go into the Prismic Settings and make sure that under "API & Security" you have your API access set to the 'Private API' option. Then generate a new Access Token.
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```
+PRISMIC_URL=https://your-repo-name.prismic.io/api/v2
+PRISMIC_TOKEN=your-access-token
+```
