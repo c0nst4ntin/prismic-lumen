@@ -1,12 +1,13 @@
 {
-    "name": "prismic-lumen",
+    "name": "@c0nst4ntin/prismic-lumen",
     "description": "A simple Prismic.io boilerplate using Laravel's Lumen.",
     "keywords": ["framework", "laravel", "lumen", "prismic"],
     "license": "MIT",
     "type": "project",
     "require": {
         "php": ">=7.1.3",
-        "laravel/lumen-framework": "5.8.*"
+        "laravel/lumen-framework": "5.8.*",
+        "prismic/php-sdk": "^5.1"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.4",

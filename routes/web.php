@@ -11,6 +11,5 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return view('home');
-});
+$router->get('/', 'PagesController@index');
+$router->get('/about', 'PagesController@about');
