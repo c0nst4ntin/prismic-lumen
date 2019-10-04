@@ -18,13 +18,12 @@
   </em>
 </p>
 
-This Lumen & Prismic.io boilerplate contains all the features and scripts you need to start developing websites using the Lumen PHP Framework and the Headless CMS Prismic.io.
-
+This Lumen & Prismic.io boilerplate contains all the features and scripts you need to start developing websites using the Lumen PHP Framework and the Headless CMS Prismic.io. If loading speed is important to you, I would recommend you check out my [Nuxt.js Boilerplate](https://lumen.laravel.com/docs) instead.
 
 ## Getting Started
 
 ### Lumen: Official Documentation
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+Documentation for the framework can be found on the [Lumen website](https://github.com/c0nst4ntin/prismic-nuxt).
 
 ### Prismic Config
 In the `.env` file you need to fill in your API Endpoint and your Access Token.
