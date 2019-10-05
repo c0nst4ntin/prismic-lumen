@@ -7,7 +7,7 @@
   <a href="https://github.com/c0nst4ntin/prismic-lumen/">
     <img src="https://img.shields.io/github/package-json/v/c0nst4ntin/prismic-lumen?color=success">
   </a>
-  <a href="https://sass-lang.com">
+  <a href="https://laravel.com/docs/6.x/mix">
     <img src="https://img.shields.io/github/package-json/dependency-version/c0nst4ntin/prismic-lumen/dev/laravel-mix?color=ff69b4">
   </a>
 </p>
